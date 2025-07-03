@@ -188,6 +188,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions, suggestions, or issues, please open an issue in the repository or contact the maintainer:
 
 - **GitHub:** [Shardul13102001](https://github.com/Shardul13102001)
+- **X Profile:** [Shardul Badare](https://x.com/Shardul40031995)
+- **Email:** shardulbadare0011@gmail.com
 
 ---
 
