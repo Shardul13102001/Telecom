@@ -103,7 +103,7 @@ Telecom/
 ├── allure-results/           # Allure raw results
 ├── target/                   # Compiled classes and build output
 ├── test-output/              # TestNG output
-├── TestReports/              # Custom/legacy reports directory
+├── TestReports/              # Extends reports
 ├── .gitignore
 ├── pom.xml                   # Maven build config
 ├── AllurSuite.xml
