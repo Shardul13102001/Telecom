@@ -71,14 +71,43 @@ Telecom/
 ├── src/
 │   └── test/
 │       ├── java/
-│       │   ├── base/        # Test base, config, and setup
-│       │   ├── payloads/    # Java models for API payloads (User, Contact)
-│       │   └── tests/       # Automated TestNG test cases
+│       │   ├── base/
+│       │   │   └── TestBase.java
+│       │   ├── config/
+│       │   │   └── ConfigReader.java
+│       │   ├── payloads/
+│       │   │   ├── AddNewUserPayload.java
+│       │   │   ├── ContactPayload.java
+│       │   │   ├── loginPayload.java
+│       │   │   ├── UpdateContactPatchPayload.java
+│       │   │   └── UpdateUserPayload.java
+│       │   ├── tests/
+│       │   │   ├── TC01_AddNewUser.java
+│       │   │   ├── TC02_Get_User_Profile.java
+│       │   │   ├── TC03_Update_User.java
+│       │   │   ├── TC04_User_Login.java
+│       │   │   ├── TC05_Add_Contact.java
+│       │   │   ├── TC06_Get_Contact_List.java
+│       │   │   ├── TC07_Get_Contact.java
+│       │   │   ├── TC08_Update_Contact_Put.java
+│       │   │   ├── TC09_Update_Contact_Patch.java
+│       │   │   └── TC10_User_Logout.java
+│       │   │
+│       │   └── utilities/
+│       │       ├── ExtentTestNGListeners.java
+│       │       └── ExtentManager.java
 │       └── resources/
-│           └── config      # Configuration files
-├── reports/                 # Generated test and build reports
+│           └── config.properties
+│
+├── allure-report/            # Allure generated reports
+├── allure-results/           # Allure raw results
+├── target/                   # Compiled classes and build output
+├── test-output/              # TestNG output
+├── TestReports/              # Custom/legacy reports directory
 ├── .gitignore
-├── pom.xml                  # Maven build config
+├── pom.xml                   # Maven build config
+├── AllurSuite.xml
+├── testng.xml
 └── README.md
 ```
 
@@ -107,7 +136,7 @@ Telecom/
 
 ### Configuration
 
-- Adjust environment settings in the `src/test/resources/config/` directory.
+- Adjust environment settings in the `src/test/resources/config.properties` file.
 - Update test data and parameters as needed in payloads or properties files.
 
 ### Running the Suite
@@ -121,7 +150,7 @@ Telecom/
   mvn test
   ```
 - **View reports:**
-  - Generated reports are available in the `reports/` directory.
+  - Generated reports are available in the `allure-report/`, `allure-results/`, or `TestReports/` directories.
   - For Allure:
     ```bash
     allure serve target/allure-results
