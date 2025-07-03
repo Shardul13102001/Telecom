@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.471" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\target\test-classes;C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Admin\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Admin\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire2289369439380046636\surefirebooter-20250703154127312_3.jar C:\Users\Admin\AppData\Local\Temp\surefire2289369439380046636 2025-07-03T15-41-26_916-jvmRun1 surefire-20250703154127312_1tmp surefire_0-20250703154127312_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\target\test-classes;C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Admin\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Admin\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire2289369439380046636\surefirebooter-20250703154127312_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools;C:\Users\Admin\AppData\Local\Android\Sdk\emulator;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\Desktop\StarAgile\CapstonProjects\Telecom\Telecom_RestAssured\AllurReport\allure-2.34.1\allure-2.34.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="addNewUser" classname="tests.TC01_AddNewUser" time="0.402">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537517&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=vlynQgHu3tp%2FvHCTJ52kYc%2BJk6gpLTRXw8uYm1XTd2Y%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537517&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=vlynQgHu3tp%2FvHCTJ52kYc%2BJk6gpLTRXw8uYm1XTd2Y%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY2NTc2ZDVhNTcxZTAwMTViMTk2YWEiLCJpYXQiOjE3NTE1Mzc1MTd9.LSV4aatDzFWBWOz8CoPikfz-2JZ0KLGt-9jKW11y3CU; Max-Age=684; Path=/; Expires=Thu, 03 Jul 2025 10:23:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Etag: W/"124-Pw6AIxzizkhSks4bHBj/kqYNMHQ"
+Date: Thu, 03 Jul 2025 10:11:57 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "6866576d5a571e0015b196aa",
+        "firstName": "Itachi",
+        "lastName": "Uchiha",
+        "email": "itachi1751537489640@gmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY2NTc2ZDVhNTcxZTAwMTViMTk2YWEiLCJpYXQiOjE3NTE1Mzc1MTd9.LSV4aatDzFWBWOz8CoPikfz-2JZ0KLGt-9jKW11y3CU"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="GetUser" classname="tests.TC02_Get_User_Profile" time="1.454">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537520&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=gyed1Ui2evDbm0yQTQ8aNKvvVO3Ide6UPccobyDalto%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537520&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=gyed1Ui2evDbm0yQTQ8aNKvvVO3Ide6UPccobyDalto%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+Etag: W/"7b-9q70ACw9qCvZFzJVOUW3SvYN5so"
+Date: Thu, 03 Jul 2025 10:12:00 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "6866576d5a571e0015b196aa",
+    "firstName": "Itachi",
+    "lastName": "Uchiha",
+    "email": "itachi1751537489640@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateUser" classname="tests.TC03_Update_User" time="1.411">
+    <system-out><![CDATA[Body:
+{
+    "firstName": "Naruto",
+    "lastName": "Uzumaki",
+    "email": "itachi1751537489640@gmail.com",
+    "password": "Naruto@123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537522&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bFdbSW1uC3tYmPV%2BOB%2B0hu%2BskhLrGV3%2F%2FbUMgnueUgw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537522&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bFdbSW1uC3tYmPV%2BOB%2B0hu%2BskhLrGV3%2F%2FbUMgnueUgw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 124
+Etag: W/"7c-vlXojJVQ7iAml78sy3WbCmCRy0c"
+Date: Thu, 03 Jul 2025 10:12:02 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "6866576d5a571e0015b196aa",
+    "firstName": "Naruto",
+    "lastName": "Uzumaki",
+    "email": "itachi1751537489640@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="userLogin" classname="tests.TC04_User_Login" time="1.407">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537523&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Seg%2FED5vKnGBGHfbGtB%2Fq1ZdMhRIVACpIkjK761m4dw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537523&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Seg%2FED5vKnGBGHfbGtB%2Fq1ZdMhRIVACpIkjK761m4dw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY0ZWZmNWZjMjQxNjAwMTU3N2MxZDMiLCJpYXQiOjE3NTE1Mzc1MjN9.aS9jGefyEFU7oXsa3Ped9ZR8NRujG7aY4anVJejy8Yw; Max-Age=36000; Path=/; Expires=Thu, 03 Jul 2025 20:12:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 291
+Etag: W/"123-Z5WJrpEa7aYmbQG6XyFNsBmNM50"
+Date: Thu, 03 Jul 2025 10:12:03 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "6864eff5fc2416001577c1d3",
+        "firstName": "itachi@gmail.com",
+        "lastName": "Uzumaki",
+        "email": "itachi@gmail.com",
+        "__v": 48
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY0ZWZmNWZjMjQxNjAwMTU3N2MxZDMiLCJpYXQiOjE3NTE1Mzc1MjN9.aS9jGefyEFU7oXsa3Ped9ZR8NRujG7aY4anVJejy8Yw"
+}
+Using Token2: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY0ZWZmNWZjMjQxNjAwMTU3N2MxZDMiLCJpYXQiOjE3NTE1Mzc1MjN9.aS9jGefyEFU7oXsa3Ped9ZR8NRujG7aY4anVJejy8Yw
+]]></system-out>
+  </testcase>
+  <testcase name="addContact" classname="tests.TC05_Add_Contact" time="1.404">
+    <system-out><![CDATA[Using Token2: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODY0ZWZmNWZjMjQxNjAwMTU3N2MxZDMiLCJpYXQiOjE3NTE1Mzc1MjN9.aS9jGefyEFU7oXsa3Ped9ZR8NRujG7aY4anVJejy8Yw
+Contact Email: itachi1751537489640@gmail.com
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537524&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=M936x9cKNjGwLbtfZdmW8CRvzDIhBSOfW%2BgQ4XlqbBA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537524&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=M936x9cKNjGwLbtfZdmW8CRvzDIhBSOfW%2BgQ4XlqbBA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 338
+Etag: W/"152-3NO4Za7jriQEHUocuufkrekXqxU"
+Date: Thu, 03 Jul 2025 10:12:05 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "68665774b13fa60015071e97",
+    "firstName": "NineTails",
+    "lastName": "Beast",
+    "birthdate": "1970-01-01",
+    "email": "itachi1751537489640@gmail.com",
+    "phone": "8005555555",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Leaf",
+    "stateProvince": "stateProvince",
+    "postalCode": "12345",
+    "country": "Japan",
+    "owner": "6864eff5fc2416001577c1d3",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getContactList" classname="tests.TC06_Get_Contact_List" time="1.382">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537526&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=vindWsKPg2%2Fgqyg%2FgMHVco1Mxq3LnAmeF6uXkctU5pM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537526&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=vindWsKPg2%2Fgqyg%2FgMHVco1Mxq3LnAmeF6uXkctU5pM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 8732
+Etag: W/"221c-RizhXLwM00mYrXacRqwTToV10lo"
+Date: Thu, 03 Jul 2025 10:12:06 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "_id": "6864fcc838806c00153bc279",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865549f38806c00153bc590",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751471246729@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865562f38806c00153bc5a0",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751471621591@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865580538806c00153bc5a6",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751472031993@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865584738806c00153bc5a9",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751472181225@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686562cc38806c00153bc5e5",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751474874439@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686563cafc2416001577c5b2",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751475090987@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865646a38806c00153bc5ec",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751475280732@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68656aee38806c00153bc61f",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751476957936@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68656c3a38806c00153bc624",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751477288592@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68665774b13fa60015071e97",
+        "firstName": "NineTails",
+        "lastName": "Beast",
+        "birthdate": "1970-01-01",
+        "email": "itachi1751537489640@gmail.com",
+        "phone": "8005555555",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Leaf",
+        "stateProvince": "stateProvince",
+        "postalCode": "12345",
+        "country": "Japan",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686571cb38806c00153bc648",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6866228bb13fa60015071dc7",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68662b225a571e0015b195ff",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686640f6b13fa60015071e12",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686643225a571e0015b19647",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68664578b13fa60015071e39",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686647a05a571e0015b19652",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686648f45a571e0015b19672",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68664ee45a571e0015b19691",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68665420b13fa60015071e87",
+        "firstName": "Achary",
+        "lastName": "Chanakya",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "68656c7dfc2416001577c5e1",
+        "firstName": "Chris",
+        "lastName": "Gardner",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865706738806c00153bc642",
+        "firstName": "Chris",
+        "lastName": "Gardner",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865706cfc2416001577c5f5",
+        "firstName": "Chris",
+        "lastName": "Gardner",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "6865706efc2416001577c5f7",
+        "firstName": "Chris",
+        "lastName": "Gardner",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    },
+    {
+        "_id": "686570c2fc2416001577c5fe",
+        "firstName": "Chris",
+        "lastName": "Gardner",
+        "birthdate": "1970-02-02",
+        "email": "chrisgardner@gmail.com",
+        "phone": "1234567890",
+        "street1": "2 Main St.",
+        "street2": "Apartment b",
+        "city": "Konoha",
+        "stateProvince": "stateProvince108",
+        "postalCode": "54321",
+        "country": "USA",
+        "owner": "6864eff5fc2416001577c1d3",
+        "__v": 0
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getContact" classname="tests.TC07_Get_Contact" time="1.397">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537527&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Zj8Ud5hkyUIaiKM8JnPewFFWGYvNTZxufd%2FMqz87R5g%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537527&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Zj8Ud5hkyUIaiKM8JnPewFFWGYvNTZxufd%2FMqz87R5g%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 338
+Etag: W/"152-3NO4Za7jriQEHUocuufkrekXqxU"
+Date: Thu, 03 Jul 2025 10:12:07 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "68665774b13fa60015071e97",
+    "firstName": "NineTails",
+    "lastName": "Beast",
+    "birthdate": "1970-01-01",
+    "email": "itachi1751537489640@gmail.com",
+    "phone": "8005555555",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Leaf",
+    "stateProvince": "stateProvince",
+    "postalCode": "12345",
+    "country": "Japan",
+    "owner": "6864eff5fc2416001577c1d3",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateContact" classname="tests.TC08_Update_Contact_Put" time="1.361">
+    <system-out><![CDATA[68665774b13fa60015071e97
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537529&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Q988o3gvCeSRxBC1r%2FUngxA%2BngsMMzHLayUTX4TYzf4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537529&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Q988o3gvCeSRxBC1r%2FUngxA%2BngsMMzHLayUTX4TYzf4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 332
+Etag: W/"14c-rxELXZltxTFfYbea+c/nqYJ81EU"
+Date: Thu, 03 Jul 2025 10:12:09 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "68665774b13fa60015071e97",
+    "firstName": "Chris",
+    "lastName": "Gardner",
+    "birthdate": "1970-02-02",
+    "email": "chrisgardner@gmail.com",
+    "phone": "1234567890",
+    "street1": "2 Main St.",
+    "street2": "Apartment b",
+    "city": "Konoha",
+    "stateProvince": "stateProvince108",
+    "postalCode": "54321",
+    "country": "USA",
+    "owner": "6864eff5fc2416001577c1d3",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateContactPatch" classname="tests.TC09_Update_Contact_Patch" time="1.376">
+    <system-out><![CDATA[68665774b13fa60015071e97
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537530&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=f4dOOvHGGrnxx%2BL8mCROlbCB5qKcozJgqzo7nbqL%2BdM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537530&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=f4dOOvHGGrnxx%2BL8mCROlbCB5qKcozJgqzo7nbqL%2BdM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 334
+Etag: W/"14e-tda+HW/OxXIAWzctbLGIw4BFYZ4"
+Date: Thu, 03 Jul 2025 10:12:10 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "68665774b13fa60015071e97",
+    "firstName": "Achary",
+    "lastName": "Chanakya",
+    "birthdate": "1970-02-02",
+    "email": "chrisgardner@gmail.com",
+    "phone": "1234567890",
+    "street1": "2 Main St.",
+    "street2": "Apartment b",
+    "city": "Konoha",
+    "stateProvince": "stateProvince108",
+    "postalCode": "54321",
+    "country": "USA",
+    "owner": "6864eff5fc2416001577c1d3",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="userLogout" classname="tests.TC10_User_Logout" time="1.424">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1751537531&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ozIZeJn0YJ2%2FMraSScvpCZHLyhoA3gOKNYhqw4tz%2BzM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1751537531&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ozIZeJn0YJ2%2FMraSScvpCZHLyhoA3gOKNYhqw4tz%2BzM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Thu, 03 Jul 2025 10:12:11 GMT
+Content-Length: 0
+Via: 1.1 vegur
+]]></system-out>
+  </testcase>
+</testsuite>

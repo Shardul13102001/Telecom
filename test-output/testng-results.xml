@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-03T12:32:51 IST" name="Suite" finished-at="2025-07-03T12:33:08 IST" duration-ms="16913">
+    <groups>
+    </groups>
+    <test started-at="2025-07-03T12:32:51 IST" name="Test" finished-at="2025-07-03T12:33:08 IST" duration-ms="16913">
+      <class name="tests.TC02_Get_User_Profile">
+        <test-method signature="GetUser()[pri:0, instance:tests.TC02_Get_User_Profile@1c9b0314]" started-at="2025-07-03T12:32:51 IST" name="GetUser" finished-at="2025-07-03T12:32:53 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+      </class> <!-- tests.TC02_Get_User_Profile -->
+      <class name="tests.TC01_AddNewUser">
+        <test-method is-config="true" signature="baseSetup()[pri:0, instance:tests.TC01_AddNewUser@23941fb4]" started-at="2025-07-03T12:32:43 IST" name="baseSetup" finished-at="2025-07-03T12:32:51 IST" duration-ms="8078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method signature="addNewUser()[pri:0, instance:tests.TC01_AddNewUser@23941fb4]" started-at="2025-07-03T12:32:51 IST" name="addNewUser" finished-at="2025-07-03T12:32:51 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+      </class> <!-- tests.TC01_AddNewUser -->
+      <class name="tests.TC06_Get_Contact_List">
+        <test-method signature="getContactList()[pri:0, instance:tests.TC06_Get_Contact_List@69ee81fc]" started-at="2025-07-03T12:32:58 IST" name="getContactList" finished-at="2025-07-03T12:33:00 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactList -->
+      </class> <!-- tests.TC06_Get_Contact_List -->
+      <class name="tests.TC10_User_Logout">
+        <test-method signature="userLogout()[pri:0, instance:tests.TC10_User_Logout@1224144a]" started-at="2025-07-03T12:33:05 IST" name="userLogout" finished-at="2025-07-03T12:33:08 IST" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+      </class> <!-- tests.TC10_User_Logout -->
+      <class name="tests.TC07_Get_Contact">
+        <test-method signature="getContact()[pri:0, instance:tests.TC07_Get_Contact@6e2aa843]" started-at="2025-07-03T12:33:00 IST" name="getContact" finished-at="2025-07-03T12:33:02 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+      </class> <!-- tests.TC07_Get_Contact -->
+      <class name="tests.TC04_User_Login">
+        <test-method signature="userLogin()[pri:0, instance:tests.TC04_User_Login@49c90a9c]" started-at="2025-07-03T12:32:54 IST" name="userLogin" finished-at="2025-07-03T12:32:56 IST" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+      </class> <!-- tests.TC04_User_Login -->
+      <class name="tests.TC03_Update_User">
+        <test-method signature="UpdateUser()[pri:0, instance:tests.TC03_Update_User@45385f75]" started-at="2025-07-03T12:32:53 IST" name="UpdateUser" finished-at="2025-07-03T12:32:54 IST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+      </class> <!-- tests.TC03_Update_User -->
+      <class name="tests.TC05_Add_Contact">
+        <test-method signature="addContact()[pri:0, instance:tests.TC05_Add_Contact@2d29b4ee]" started-at="2025-07-03T12:32:56 IST" name="addContact" finished-at="2025-07-03T12:32:58 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+      </class> <!-- tests.TC05_Add_Contact -->
+      <class name="tests.TC08_Update_Contact_Put">
+        <test-method signature="UpdateContact()[pri:0, instance:tests.TC08_Update_Contact_Put@6f36c2f0]" started-at="2025-07-03T12:33:02 IST" name="UpdateContact" finished-at="2025-07-03T12:33:04 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact -->
+      </class> <!-- tests.TC08_Update_Contact_Put -->
+      <class name="tests.TC09_Update_Contact_Patch">
+        <test-method signature="UpdateContactPatch()[pri:0, instance:tests.TC09_Update_Contact_Patch@f58853c]" started-at="2025-07-03T12:33:04 IST" name="UpdateContactPatch" finished-at="2025-07-03T12:33:05 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContactPatch -->
+      </class> <!-- tests.TC09_Update_Contact_Patch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

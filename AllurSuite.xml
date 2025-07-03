@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Tests Suite">
+
+	<test thread-count="5" name="Allure All Tests">
+		<classes>
+			<class name="tests.TC01_AddNewUser" />
+			<class name="tests.TC02_Get_User_Profile" />
+			<class name="tests.TC03_Update_User" />
+			<class name="tests.TC04_User_Login" />
+			<class name="tests.TC05_Add_Contact" />
+			<class name="tests.TC06_Get_Contact_List" />
+			<class name="tests.TC07_Get_Contact" />
+			<class name="tests.TC08_Update_Contact_Put" />
+			<class name="tests.TC09_Update_Contact_Patch" />
+			<class name="tests.TC10_User_Logout" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

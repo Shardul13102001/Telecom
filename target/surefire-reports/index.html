@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Tests_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Tests Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Tests_Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\AllurSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Tests_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Tests_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Tests_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Tests_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Tests_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Tests_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="hide-methods passed suite-All_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Tests_Suite -->
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="show-methods passed suite-All_Tests_Suite"> (show)</a> <!-- show-methods passed suite-All_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Tests_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC02_Get_User_Profile" class="method navigator-link" hash-for-method="GetUser">GetUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC08_Update_Contact_Put" class="method navigator-link" hash-for-method="UpdateContact">UpdateContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC09_Update_Contact_Patch" class="method navigator-link" hash-for-method="UpdateContactPatch">UpdateContactPatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC03_Update_User" class="method navigator-link" hash-for-method="UpdateUser">UpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC05_Add_Contact" class="method navigator-link" hash-for-method="addContact">addContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC01_AddNewUser" class="method navigator-link" hash-for-method="addNewUser">addNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC07_Get_Contact" class="method navigator-link" hash-for-method="getContact">getContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC06_Get_Contact_List" class="method navigator-link" hash-for-method="getContactList">getContactList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC04_User_Login" class="method navigator-link" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="tests.TC10_User_Logout" class="method navigator-link" hash-for-method="userLogout">userLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Tests_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Tests_Suite" class="panel All_Tests_Suite">
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC01_AddNewUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUser">
+                  </a> <!-- addNewUser -->
+                  <span class="method-name">addNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC05_Add_Contact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContact">
+                  </a> <!-- addContact -->
+                  <span class="method-name">addContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC04_User_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin">
+                  </a> <!-- userLogin -->
+                  <span class="method-name">userLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC07_Get_Contact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getContact">
+                  </a> <!-- getContact -->
+                  <span class="method-name">getContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC09_Update_Contact_Patch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateContactPatch">
+                  </a> <!-- UpdateContactPatch -->
+                  <span class="method-name">UpdateContactPatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC02_Get_User_Profile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUser">
+                  </a> <!-- GetUser -->
+                  <span class="method-name">GetUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC10_User_Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogout">
+                  </a> <!-- userLogout -->
+                  <span class="method-name">userLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC06_Get_Contact_List</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getContactList">
+                  </a> <!-- getContactList -->
+                  <span class="method-name">getContactList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC03_Update_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateUser">
+                  </a> <!-- UpdateUser -->
+                  <span class="method-name">UpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC08_Update_Contact_Put</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateContact">
+                  </a> <!-- UpdateContact -->
+                  <span class="method-name">UpdateContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+        </div> <!-- panel All_Tests_Suite -->
+        <div panel-name="test-xml-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Desktop\shardul_SDET\AndroidTesting\Telecom\AllurSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Tests Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Allure All Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TC01_AddNewUser&quot;/&gt;
+      &lt;class name=&quot;tests.TC02_Get_User_Profile&quot;/&gt;
+      &lt;class name=&quot;tests.TC03_Update_User&quot;/&gt;
+      &lt;class name=&quot;tests.TC04_User_Login&quot;/&gt;
+      &lt;class name=&quot;tests.TC05_Add_Contact&quot;/&gt;
+      &lt;class name=&quot;tests.TC06_Get_Contact_List&quot;/&gt;
+      &lt;class name=&quot;tests.TC07_Get_Contact&quot;/&gt;
+      &lt;class name=&quot;tests.TC08_Update_Contact_Put&quot;/&gt;
+      &lt;class name=&quot;tests.TC09_Update_Contact_Patch&quot;/&gt;
+      &lt;class name=&quot;tests.TC10_User_Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Allure All Tests --&gt;
+&lt;/suite&gt; &lt;!-- All Tests Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Allure All Tests (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Tests_Suite');
+function tableData_All_Tests_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UpdateUser')
+data.setCell(0, 2, 'tests.TC03_Update_User')
+data.setCell(0, 3, 1443);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetUser')
+data.setCell(1, 2, 'tests.TC02_Get_User_Profile')
+data.setCell(1, 3, 1422);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userLogin')
+data.setCell(2, 2, 'tests.TC04_User_Login')
+data.setCell(2, 3, 1409);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'userLogout')
+data.setCell(3, 2, 'tests.TC10_User_Logout')
+data.setCell(3, 3, 1407);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getContact')
+data.setCell(4, 2, 'tests.TC07_Get_Contact')
+data.setCell(4, 3, 1405);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addContact')
+data.setCell(5, 2, 'tests.TC05_Add_Contact')
+data.setCell(5, 3, 1404);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UpdateContactPatch')
+data.setCell(6, 2, 'tests.TC09_Update_Contact_Patch')
+data.setCell(6, 3, 1372);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getContactList')
+data.setCell(7, 2, 'tests.TC06_Get_Contact_List')
+data.setCell(7, 3, 1371);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UpdateContact')
+data.setCell(8, 2, 'tests.TC08_Update_Contact_Put')
+data.setCell(8, 3, 1361);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addNewUser')
+data.setCell(9, 2, 'tests.TC01_AddNewUser')
+data.setCell(9, 3, 354);
+window.suiteTableData['All_Tests_Suite']= { tableData: data, tableDiv: 'times-div-All_Tests_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-All_Tests_Suite">
+              </div> <!-- times-div-All_Tests_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC05_Add_Contact</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC04_User_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC09_Update_Contact_Patch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC10_User_Logout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC02_Get_User_Profile</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC06_Get_Contact_List</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC08_Update_Contact_Put</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC03_Update_User</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">baseSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC01_AddNewUser</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">baseSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">addNewUser</span>
+                <span class="method-start">28601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC02_Get_User_Profile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GetUser</span>
+                <span class="method-start">28999 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC03_Update_User</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateUser</span>
+                <span class="method-start">30425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC04_User_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userLogin</span>
+                <span class="method-start">31871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC05_Add_Contact</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addContact</span>
+                <span class="method-start">33283 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC06_Get_Contact_List</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getContactList</span>
+                <span class="method-start">34690 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC07_Get_Contact</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getContact</span>
+                <span class="method-start">36065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC08_Update_Contact_Put</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateContact</span>
+                <span class="method-start">37474 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC09_Update_Contact_Patch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateContactPatch</span>
+                <span class="method-start">38838 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC10_User_Logout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userLogout</span>
+                <span class="method-start">40214 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
