@@ -59,6 +59,7 @@
 - **TestNG**
 - **REST Assured**
 - **Allure Reports**
+- **Extend Reports**
 - **Maven**
 
 ---
