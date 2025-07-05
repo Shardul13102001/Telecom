@@ -53,7 +53,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Java 11+**
 - **TestNG**
